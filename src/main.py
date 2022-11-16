@@ -46,7 +46,7 @@ parser.add_argument('--dim_z', type=int, default=16, metavar='N', help='dimensio
 parser.add_argument('--dim_h', type=int, default=16, metavar='N', help='dimension of h')
 parser.add_argument('--dropout', type=float, default=0.1)
 
-parser.add_argument('--dataset', default='community', help='dataset to use',
+parser.add_argument('--dataset', default='imdb_m', help='dataset to use',
                     choices=['community', 'ogbg_molhiv', 'imdb_m'])
 parser.add_argument('--lr', type=float, default=1e-3,
                     help='learning rate for optimizer')
